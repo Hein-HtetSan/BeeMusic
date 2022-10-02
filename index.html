@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bee Music</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./sup/style/style.css">
+    <link rel="stylesheet" href="./FontAwesome.Pro.6.0.0.alpha3/fontawesome6/pro/css/all.min.css"> 
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="mobile-not-avab">
+            <div class="img d-flex align-items-center justify-content-center">
+                <img src="/sup/img/no-results.png" alt="Smart Phone" class="no-result">
+            </div>
+            <div class="content text-center">
+                <div class="hader">Whoops!</div>
+                <div class="infor">We couldn't find the page you were looking for.</div>
+            </div>
+        </div>
+        <!--Themes for web-->
+        <div class="theme">
+            <i class="fa-solid fa-gear gear-icon"></i>
+        </div>
+        <!--End of Themes for web-->
+        <!--dialog box-->
+        <div class="theme-dialog-box p-1">
+            <div class="mode px-1 py-1 d-flex align-items-center justify-content-center mt-1" >
+                <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun-bright"></i>
+            </div>
+            <hr>
+            <div class="colors-box p-1">
+                <div class="color pink mb-1"></div>
+                <div class="color yellow  mb-1"></div>
+                <div class="color red mb-1"></div>
+                <div class="color green mb-1"></div>
+            </div>
+        </div>
+        <!--end of dialog box-->
+        <!--Scrollable model for shortcuts-->
+        <div class="shrt-items d-flex align-items-center justify-content-center">
+            <div class="row row-cols-1 dialg-box">
+                <div class="col-12 hder-shrt px-3 py-3">
+                    Add Shortcuts
+                </div>
+                <div class="col-12 px-3">
+                    <div class="row row-cols-2 shrt-icons py-2">
+                        <!--Display Hobbies-->
+                    </div>
+                </div>
+                <div class="chg-btn px-3 py-3 mt-3">
+                    <div class="btn-gp d-flex align-items-center justify-content-end">
+                        <button class="sv-chage-btn">Save Changes</button>
+                        <button class="cls-btn ms-3">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--End of Scrollable model for shortcuts-->
+        <div class="vol-rang-box">
+            <div class="percent">0</div>
+        </div>
+        <div class="row row-cols-2">
+            <!--Side Bar-->
+            <div class="col-3 bg-white p-5 side_bar">
+
+                <!--Expand & collet Buts-->
+                <div class="d-flex align-items-center justify-content-end">
+                    <i class="e_n_c_btn fa-light fa-bars d-none"></i>
+                    <i class="fa-regular fa-chevrons-left d-block"></i>
+                </div>
+
+
+                <!--Logo-->
+                <div class="logo-icon d-block w-100">
+                    <h3><span>BEE</span> Music</h3>
+                </div>
+
+                <!--Buttons-->
+                <div class="col pt-3">
+
+                    <div class="row row-cols-1 gy-2">
+                        <div class="tab-1 active d-flex py-1 px-2 gx-2 align-items-center justify-content-start">
+                            <div class="">
+                                <i class="fa-light fa-house"></i>
+                            </div>
+                            <div class="sub_cont ps-2">
+                                Home
+                            </div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-chart-line-up"></i></div>
+                            <div class="sub_cont ps-2">Trends</div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-compass"></i></div>
+                            <div class="sub_cont ps-2">Feed</div>
+                        </div>
+                    </div>
+
+                    <div class="sub_h mt-3 mb-2" id="sub_h_none">Discover</div>
+                    <hr>
+
+                    <div class="row row-cols-1 gy-2">
+                        <div class="tab-1 d-flex py-1 px-2 gx-2 align-items-center justify-cont ps-3ent-start">
+                            <div class=""><i class="fa-light fa-shapes"></i></div>
+                            <div class="sub_cont ps-2">New and Notable</div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-calendar-check"></i></div>
+                            <div class="sub_cont ps-2">Release Calendar</div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-ticket-simple"></i></div>
+                            <div class="sub_cont ps-2">Events</div>
+                        </div>
+                    </div>
+
+                    <div class="sub_h mt-3 mb-2" id="sub_h_none">New Collection</div>
+                    <hr>
+
+                    <div class="row row-cols-1 gy-2">
+                        <div class="tab-1 d-flex py-1 px-2 gx-2 align-items-center justify-cont ps-3ent-start">
+                            <div class=""><i class="fa-light fa-heart"></i></div>
+                            <div class="sub_cont ps-2">Favorite Songs</div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-user-music"></i></div>
+                            <div class="sub_cont ps-2">Artists</div>
+                        </div>
+                        <div class="tab-1 d-flex align-items-center py-1 px-2 gx-2 justify-cont ps-3ent-start p-1">
+                            <div class=""><i class="fa-light fa-star"></i></div>
+                            <div class="sub_cont ps-2">Albums</div>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row row-cols-1 gy-2">
+                        <div class="profile d-flex align-items-center justify-content-between ps-3ent-start">
+                            <div class="pf-img">
+                                <div class="profile-img"></div>
+                            </div>
+                            <div class="sub_cont" id="profile-name">Unknown</div>
+                            <div class="chevrons-small-left sub_cont">
+                                <i class="fa-sharp fa-solid fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <!--Features-->
+            <div class="col-9 middle_section p-3">
+                <!------>
+                <!--Sub Content-->
+                <div class="row row-cols-2">
+                    <!--Main Content-->
+                    <div class="col-9 px-3">
+                        <!--Navbar-->
+                        <div class="row row-cols-2">
+                            <div class="col-2 d-flex align-items-center justify-content-around">
+                                <i class="fa-regular fa-arrow-left"></i>
+                                <i class="fa-regular fa-arrow-right"></i>
+                            </div>
+                            <div class="col-10 px-5 d-flex align-items-center position-relative justify-content-center">
+                                <div class="label-srch">Search the Songs</div>
+                                <input type="text" class="lens-box bg-white"  placeholder="Search"/><i class="fa-regular fa-magnifying-glass"></i>
+                            </div>
+                        </div>
+                        <!--End of Navbar-->
+
+                        <!--Playing Section-->
+                        <div class="row row-cols-1 py-3">
+                            <div class="infor">What's hot &nbsp;&nbsp;<i class="fa-duotone fa-fire-flame"></i></div>
+                            <!-- <h2 class="ply-sect-head pt-2">Trending</h2> -->
+                            <h2 class="ply-sect-head pt-2">My Playlist</h2>
+                            <!--Header Bar-->
+                            <div class="title-bara row row-cols-5 text-start px-3">
+                                <div class="col-1 colm ps-4">#</div>
+                                <div class="col-4 colm ps-4">title</div>
+                                <div class="col-3 colm ps-4">artist</div>
+                                <div class="col-1 colm ps-4">time</div>
+                                <div class="col-3 colm ps-4">album</div>
+                            </div>
+                            <hr class="width: 80%">
+                            <!--End of Header Bar-->
+                            <!--Sounds-->
+                            <div class="msc-info ">
+                                <!----->
+                            </div>
+                            <!--End of Sounds-->
+                            <!--Control Box-->
+                            <div class="px-5 py-3">
+                                <div class="row row-cols-1 ctrl-box">
+                                    <div class="btns-box row row-cols-3 pt-3">
+                                        <div class="col-3 d-flex align-items-center justify-content-around p-3">
+                                            <div class="hrt-box">
+                                                <i class="fa-regular fa-heart "></i>
+                                                <i class="fa-solid fa-heart my-heart d-none"></i>
+                                            </div>
+                                            <div class="msc-box">
+                                                <i class="fa-regular fa-music"></i>
+                                            </div>
+                                            <div class="expd-box">
+                                                <i class="fa-regular fa-arrow-up-right-and-arrow-down-left-from-center"></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 d-flex align-items-center justify-content-center">
+                                            <div class="rept-icon">
+                                                <i class="fa-regular fa-repeat"></i>
+                                            </div>
+                                            <div class="prev-icon ps-3">
+                                                <i class="fa-solid fa-backward-fast"></i>
+                                            </div>
+                                            <div class="ply-pus-icon px-3">
+                                                <i class="fa-solid fa-circle-play"></i>
+                                                <i class="fa-solid fa-circle-pause d-none"></i>
+                                            </div>
+                                            <div class="nxt-icon pe-3">
+                                                <i class="fa-solid fa-forward-fast"></i>
+                                            </div>
+                                            <div class="shuf-icon">
+                                                <i class="fa-regular fa-shuffle "></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-3 d-flex align-items-center justify-content-center">
+                                            <i class="fa-regular fa-volume-xmark d-none"></i>
+                                            <i class="fa-regular fa-volume-low"></i>
+                                            <div class="rnge px-2">
+                                                <input type="range" name="" id="volume" min="0" max="100" value="50" onchange="changeVolume()">
+                                            </div>
+                                            <i class="fa-regular fa-volume"></i>
+                                        </div>
+                                    </div>
+                                    <div class="dur-box row row-cols-3 pb-4 pt-2 d-flex align-items-center justify-content-center">
+                                        <div class="col-1 ">
+                                            <div class="st-dur">00:00</div>
+                                        </div>
+                                        <div class="col-10 ">
+                                            <input type="range" name="" id="progress" min="0" max="100" value="0" onchange="changeDuration()">
+                                        </div>
+                                        <div class="col-1 ">
+                                            <div class="end-dur">00:00</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--End of Control Box-->
+                        </div>
+                        <!--End of Playing Section-->
+                    </div>
+                    <!--End of Main Content-->
+
+                    <!--SideP Content-->
+                    <div class="col-3">
+                        <div class="row row-cols-1">
+                            <div class="py-1 heading">Shortcuts</div>
+                            <div class="user-shrt row row-cols-2 py-2">
+                                <!--Users' Shortcut-->
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start py-2">
+                                <div class="shr-add-btn px-2 py-1"><i class="fa-regular fa-plus"></i>&nbsp;&nbsp;Add</div>
+                                <button class="edit-btn px-2 py-1 ms-2 d-none">Edit</button>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row row-cols-1">
+                            <div class="py-1 heading">Fav Artists</div>
+                            <div class="user-fav-artist">
+                                <!--Users' Fav artists-->
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start py-2">
+                                <div class="fav-artist-add-btn px-2 py-1"><i class="fa-regular fa-plus"></i>&nbsp;&nbsp;Add</div>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="row row-cols-1">
+                            <div class="py-1 heading">Albums</div>
+                            <div class="user-album">
+                                <!--Users' Albums-->
+                            </div>
+                            <div class="d-flex align-items-center justify-content-start py-2">
+                                <div class="album-add-btn px-2 py-1"><i class="fa-regular fa-plus"></i>&nbsp;&nbsp;Add</div>
+                            </div>
+                        </div>
+                        <div class="row row-cols-1 current-playing-song p-2">
+                            <hr>
+                            <div class="py-1 heading">Current Song</div>
+                            <div class="current-song d-flex align-items-center justify-content-between px-3 py-2 bg-white">
+                                <div class="name-of-song"></div>
+                                <img src="./sup/img/vinyl.gif" class="vinyl" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Side Content-->
+                </div>
+                <!--End of Sub Content-->
+                <!------>
+            </div>
+            <!--End of Features-->
+        </div>
+        
+    </div>
+    <script src="./sup/script/Data.js"></script>
+    <script src="./sup/script/script.js"></script>
+</body>
+</html>
