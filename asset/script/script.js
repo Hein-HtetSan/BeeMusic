@@ -136,7 +136,7 @@ e_c_Btn.addEventListener("click", () => {
 
 let music_Items = [
     /* 1. */
-    {track_No: "01", name: "8 Letters", path: "/asset/sound/8_Letters_-_Why_Don't_We_[Official_Music_Video](128k).mp3", artist: "Why don't We", albums: "American Pop", duration: "03:11"},
+    {track_No: "01", name: "8 Letters", path: "../asset/sound/8_Letters_-_Why_Don't_We_[Official_Music_Video](128k).mp3", artist: "Why don't We", albums: "American Pop", duration: "03:11"},
     /* 1. */
     {track_No: "02", name: "On My Way", path: "/asset/sound/Alan_Walker,_Sabrina_Carpenter_&_Farruko__-_On_My_Way(128k).mp3", artist: "Alan Walker", albums: "", duration: "03:36"},
     /* 1. */
