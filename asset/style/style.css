@@ -636,7 +636,8 @@ input[type="range"]:active::-webkit-slider-thumb{
     overflow: hidden;
     background: white;
     overflow: hidden;
-    overflow-y: hidden;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
 }
 
 .no-result{
