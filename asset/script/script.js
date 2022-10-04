@@ -147,97 +147,97 @@ e_c_Btn.addEventListener("click", () => {
 
 let music_Items = [
     /* 1. */
-    {track_No: "01", name: "8 Letters", path: "../asset/sound/8_Letters_-_Why_Don't_We_[Official_Music_Video](128k).mp3", artist: "Why don't We", albums: "American Pop", duration: "03:11"},
+    {track_No: "01", name: "8 Letters", path: "/asset/sound/8_Letters_-_Why_Don't_We_[Official_Music_Video](128k).mp3", artist: "Why don't We", albums: "American Pop", duration: "03:11"},
     /* 1. */
-    {track_No: "02", name: "On My Way", path: "../asset/sound/Alan_Walker,_Sabrina_Carpenter_&_Farruko__-_On_My_Way(128k).mp3", artist: "Alan Walker", albums: "", duration: "03:36"},
+    {track_No: "02", name: "On My Way", path: "/asset/sound/Alan_Walker,_Sabrina_Carpenter_&_Farruko__-_On_My_Way(128k).mp3", artist: "Alan Walker", albums: "", duration: "03:36"},
     /* 1. */
-    {track_No: "03", name: "Let Me Down Slowly", path: "../asset/sound/Alec_Benjamin_-_Let_Me_Down_Slowly_(Lyrics)(128k).mp3", artist: "Alec Benjamin", albums: "", duration: "02:49"},
+    {track_No: "03", name: "Let Me Down Slowly", path: "/asset/sound/Alec_Benjamin_-_Let_Me_Down_Slowly_(Lyrics)(128k).mp3", artist: "Alec Benjamin", albums: "", duration: "02:49"},
     /* 1. */
-    {track_No: "04", name: "Angel Baby", path: "../asset/sound/Angel Baby.mp3", artist: "", albums: "", duration: "03:41"},
+    {track_No: "04", name: "Angel Baby", path: "/asset/sound/Angel Baby.mp3", artist: "", albums: "", duration: "03:41"},
     /* 1. */
-    {track_No: "05", name: "Into Your Arm", path: "../asset/sound/Ava_max_,into_your_arms_(slowed_)(128k).mp3", artist: "", albums: "", duration: "03:11"},
+    {track_No: "05", name: "Into Your Arm", path: "/asset/sound/Ava_max_,into_your_arms_(slowed_)(128k).mp3", artist: "", albums: "", duration: "03:11"},
     /* 1. */
-    {track_No: "06", name: "On & On", path: "../asset/sound/Cartoon_-_On_&_On_(Lyrics)_feat._Daniel_Levi(128k).mp3", artist: "Daniel Levi", albums: "", duration: "03:27"},
+    {track_No: "06", name: "On & On", path: "/asset/sound/Cartoon_-_On_&_On_(Lyrics)_feat._Daniel_Levi(128k).mp3", artist: "Daniel Levi", albums: "", duration: "03:27"},
     /* 1. */
-    {track_No: "07", name: "Hold On", path: "../asset/sound/Chord_Overstreet_-_Hold_On_(Lyrics)(128k).mp3", artist: "Chord Overstreet", albums: "", duration: "03:15"},
+    {track_No: "07", name: "Hold On", path: "/asset/sound/Chord_Overstreet_-_Hold_On_(Lyrics)(128k).mp3", artist: "Chord Overstreet", albums: "", duration: "03:15"},
     /* 1. */
-    {track_No: "08", name: "Rockabye", path: "../asset/sound/Clean_Bandit_-_Rockabye_(feat._Sean_Paul_&_Anne-Marie)_[Official_Video](128k).mp3", artist: "Clean Bandit", albums: "", duration: "04:13"},
+    {track_No: "08", name: "Rockabye", path: "/asset/sound/Clean_Bandit_-_Rockabye_(feat._Sean_Paul_&_Anne-Marie)_[Official_Video](128k).mp3", artist: "Clean Bandit", albums: "", duration: "04:13"},
     /* 1. */
-    {track_No: "09", name: "Be Alright", path: "../asset/sound/Dean_Lewis_-_Be_Alright_(Official_Video)(128k).mp3", artist: "Dean Lewis", albums: "", duration: "03:19"},
+    {track_No: "09", name: "Be Alright", path: "/asset/sound/Dean_Lewis_-_Be_Alright_(Official_Video)(128k).mp3", artist: "Dean Lewis", albums: "", duration: "03:19"},
     /* 1. */
-    {track_No: "10", name: "Let Me Love You", path: "../asset/sound/DJ_Snake_-_Let_Me_Love_You_ft._Justin_Bieber_(Official_Video)(128k).mp3", artist: "DJ Snake", albums: "", duration: "03:25"},
+    {track_No: "10", name: "Let Me Love You", path: "/asset/sound/DJ_Snake_-_Let_Me_Love_You_ft._Justin_Bieber_(Official_Video)(128k).mp3", artist: "DJ Snake", albums: "", duration: "03:25"},
     /* 1. */
-    {track_No: "11", name: "Perfect", path: "../asset/sound/Ed_Sheeran_-_Perfect_(Lyrics)(128k).mp3", artist: "Ed Sheeran", albums: "", duration: "04:23"},
+    {track_No: "11", name: "Perfect", path: "/asset/sound/Ed_Sheeran_-_Perfect_(Lyrics)(128k).mp3", artist: "Ed Sheeran", albums: "", duration: "04:23"},
     /* 1. */
-    {track_No: "12", name: "Work From Home", path: "../asset/sound/Fifth_Harmony_-_Work_from_Home_(Official_Video)_ft._Ty_Dolla_$ign(128k).mp3", artist: "Fifth Harmony", albums: "", duration: "03:39"},
+    {track_No: "12", name: "Work From Home", path: "/asset/sound/Fifth_Harmony_-_Work_from_Home_(Official_Video)_ft._Ty_Dolla_$ign(128k).mp3", artist: "Fifth Harmony", albums: "", duration: "03:39"},
     /* 1. */
-    {track_No: "13", name: "Without Me", path: "../asset/sound/Halsey_-_Without_Me_(Lyrics)(128k).mp3", artist: "Halsey", albums: "", duration: "03:23"},
+    {track_No: "13", name: "Without Me", path: "/asset/sound/Halsey_-_Without_Me_(Lyrics)(128k).mp3", artist: "Halsey", albums: "", duration: "03:23"},
     /* 1. */
-    {track_No: "14", name: "Heart Of a Hero", path: "../asset/sound/Heart_of_a_Hero_-_Club_Danger_(LYRICS)(128k).mp3", artist: "Club Danger", albums: "", duration: "03:19"},
+    {track_No: "14", name: "Heart Of a Hero", path: "/asset/sound/Heart_of_a_Hero_-_Club_Danger_(LYRICS)(128k).mp3", artist: "Club Danger", albums: "", duration: "03:19"},
     /* 1. */
-    {track_No: "15", name: "I Want You to Know", path: "../asset/sound/I want you to know.mp3", artist: "", albums: "", duration: "04:27"},
+    {track_No: "15", name: "I Want You to Know", path: "/asset/sound/I want you to know.mp3", artist: "", albums: "", duration: "04:27"},
     /* 1. */
-    {track_No: "16", name: "Till You Drop", path: "../asset/sound/ItaloBrothers_-_Till_You_Drop_(Official_Video_HD)(128k).mp3", artist: "ItaloBrothers", albums: "", duration: "03:59"},
+    {track_No: "16", name: "Till You Drop", path: "/asset/sound/ItaloBrothers_-_Till_You_Drop_(Official_Video_HD)(128k).mp3", artist: "ItaloBrothers", albums: "", duration: "03:59"},
     /* 1. */
-    {track_No: "17", name: "Replay", path: "../asset/sound/Iyaz_-_Replay_(reverb_&_slowed)(128k).mp3", artist: "Iyaz", albums: "", duration: "03:16"},
+    {track_No: "17", name: "Replay", path: "/asset/sound/Iyaz_-_Replay_(reverb_&_slowed)(128k).mp3", artist: "Iyaz", albums: "", duration: "03:16"},
     /* 1. */
-    {track_No: "18", name: "So Big", path: "../asset/sound/Iyaz_-_So_Big_(Lyrics)(128k).mp3", artist: "Iyaz", albums: "", duration: "03:21"},
+    {track_No: "18", name: "So Big", path: "/asset/sound/Iyaz_-_So_Big_(Lyrics)(128k).mp3", artist: "Iyaz", albums: "", duration: "03:21"},
     /* 1. */
-    {track_No: "19", name: "Just Give me a Reason", path: "../asset/sound/Just_Give_Me_a_Reason__P%21nk_ft._Nate_Ruess__-_Sam_Tsui%2C_Kylee%2C___Kurt_Schneider_Cover___Sam_Tsui(128k).mp3", artist: "Nate Ruess", albums: "", duration: "04:02"},
+    {track_No: "19", name: "Just Give me a Reason", path: "/asset/sound/Just_Give_Me_a_Reason__P%21nk_ft._Nate_Ruess__-_Sam_Tsui%2C_Kylee%2C___Kurt_Schneider_Cover___Sam_Tsui(128k).mp3", artist: "Nate Ruess", albums: "", duration: "04:02"},
     /* 1. */
-    {track_No: "20", name: "Love Yourself", path: "../asset/sound/Justin_Bieber_-_Love_Yourself_(Lyrics)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "03:51"},
+    {track_No: "20", name: "Love Yourself", path: "/asset/sound/Justin_Bieber_-_Love_Yourself_(Lyrics)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "03:51"},
     /* 1. */
-    {track_No: "21", name: "Monsters", path: "../asset/sound/Katie_Sky_-_Monsters_(Lyrics)(128k).mp3", artist: "Katie Sky", albums: "", duration: "04:11"},
+    {track_No: "21", name: "Monsters", path: "/asset/sound/Katie_Sky_-_Monsters_(Lyrics)(128k).mp3", artist: "Katie Sky", albums: "", duration: "04:11"},
     /* 1. */
-    {track_No: "22", name: "Let Her Go", path: "../asset/sound/Let_Her_Go_-_Passenger___Mm___Eng___Sub___Lyrics(128k).mp3", artist: "Passenger", albums: "", duration: "04:14"},
+    {track_No: "22", name: "Let Her Go", path: "/asset/sound/Let_Her_Go_-_Passenger___Mm___Eng___Sub___Lyrics(128k).mp3", artist: "Passenger", albums: "", duration: "04:14"},
     /* 1. */
-    {track_No: "23", name: "Light Switch", path: "../asset/sound/Light_Switch_-_Charlie_Puth_(xooos_cover)(128k).mp3", artist: "Charlie Puth", albums: "", duration: "02:28"},
+    {track_No: "23", name: "Light Switch", path: "/asset/sound/Light_Switch_-_Charlie_Puth_(xooos_cover)(128k).mp3", artist: "Charlie Puth", albums: "", duration: "02:28"},
     /* 1. */
-    {track_No: "24", name: "Pretty Girl", path: "../asset/sound/Maggie_Lindemann_-_Pretty_Girl_(Cheat_Codes_x_CADE_Remix)_[Official_Video](128k).mp3", artist: "Maggie Lindemann", albums: "", duration: "03:19"},
+    {track_No: "24", name: "Pretty Girl", path: "/asset/sound/Maggie_Lindemann_-_Pretty_Girl_(Cheat_Codes_x_CADE_Remix)_[Official_Video](128k).mp3", artist: "Maggie Lindemann", albums: "", duration: "03:19"},
     /* 1. */
-    {track_No: "25", name: "PayPhone", path: "../asset/sound/Maroon_5_Ft._Wiz_Khalifa_-_Payphone_(Lyrics)(128k).mp3", artist: "Maroon 5", albums: "", duration: "03:56"},
+    {track_No: "25", name: "PayPhone", path: "/asset/sound/Maroon_5_Ft._Wiz_Khalifa_-_Payphone_(Lyrics)(128k).mp3", artist: "Maroon 5", albums: "", duration: "03:56"},
     /* 1. */
-    {track_No: "26", name: "Friend", path: "../asset/sound/Marshmello___Anne-Marie_-_FRIENDS__Music_Video___OFFICIAL_FRIENDZONE_ANTHEM_(128k).mp3", artist: "Marshmello Anne-Marie", albums: "", duration: "03:51"},
+    {track_No: "26", name: "Friend", path: "/asset/sound/Marshmello___Anne-Marie_-_FRIENDS__Music_Video___OFFICIAL_FRIENDZONE_ANTHEM_(128k).mp3", artist: "Marshmello Anne-Marie", albums: "", duration: "03:51"},
     /* 1. */
-    {track_No: "27", name: "Spectre", path: "../asset/sound/MobCup spectre alan walker.mp3", artist: "MobCup alan walker", albums: "", duration: "02:40"},
+    {track_No: "27", name: "Spectre", path: "/asset/sound/MobCup spectre alan walker.mp3", artist: "MobCup alan walker", albums: "", duration: "02:40"},
     /* 1. */
-    {track_No: "28", name: "Sunroof", path: "../asset/sound/Nicky_Youre,_dazy_-_Sunroof_(Lyrics)(128k).mp3", artist: "Nicky Youre", albums: "", duration: "02:40"},
+    {track_No: "28", name: "Sunroof", path: "/asset/sound/Nicky_Youre,_dazy_-_Sunroof_(Lyrics)(128k).mp3", artist: "Nicky Youre", albums: "", duration: "02:40"},
     /* 1. */
-    {track_No: "29", name: "Night Changes", path: "../asset/sound/Night_Changes_-_One_Direction(mmsub)(128k).mp3", artist: "One Direction", albums: "", duration: "04:26"},
+    {track_No: "29", name: "Night Changes", path: "/asset/sound/Night_Changes_-_One_Direction(mmsub)(128k).mp3", artist: "One Direction", albums: "", duration: "04:26"},
     /* 1. */
-    {track_No: "30", name: "I Lived", path: "../asset/sound/One_Republic_-_I_Lived_-_Lyrics_Video_(Native_Album)_[HD][HQ](128k).mp3", artist: "One Republic", albums: "", duration: "03:54"},
+    {track_No: "30", name: "I Lived", path: "/asset/sound/One_Republic_-_I_Lived_-_Lyrics_Video_(Native_Album)_[HD][HQ](128k).mp3", artist: "One Republic", albums: "", duration: "03:54"},
     /* 1. */
-    {track_No: "31", name: "Pa Ka Ti Tan Boe", path: "../asset/sound/Pa_Ka_Ti_Tan_Boe_-__Min_Thant_Official_Lyric_Video(128k).mp3", artist: "Min Thant", albums: "", duration: "03:48"},
+    {track_No: "31", name: "Pa Ka Ti Tan Boe", path: "/asset/sound/Pa_Ka_Ti_Tan_Boe_-__Min_Thant_Official_Lyric_Video(128k).mp3", artist: "Min Thant", albums: "", duration: "03:48"},
     /* 1. */
-    {track_No: "32", name: "Fight Song", path: "../asset/sound/Rachel_Platten_-_Fight_Song_(Lyrics)(128k).mp3", artist: "Rachel Platten", albums: "", duration: "03:23"},
+    {track_No: "32", name: "Fight Song", path: "/asset/sound/Rachel_Platten_-_Fight_Song_(Lyrics)(128k).mp3", artist: "Rachel Platten", albums: "", duration: "03:23"},
     /* 1. */
-    {track_No: "33", name: "The Shade", path: "../asset/sound/Rex_Orange_County_-_THE_SHADE_(Lyrics)(128k).mp3", artist: "Rex Orange County", albums: "", duration: "03:17"},
+    {track_No: "33", name: "The Shade", path: "/asset/sound/Rex_Orange_County_-_THE_SHADE_(Lyrics)(128k).mp3", artist: "Rex Orange County", albums: "", duration: "03:17"},
     /* 1. */
-    {track_No: "34", name: "Dandelions", path: "../asset/sound/Ruth_B._-_Dandelions_(Lyrics)(128k).mp3", artist: "Ruth B", albums: "", duration: "03:53"},
+    {track_No: "34", name: "Dandelions", path: "/asset/sound/Ruth_B._-_Dandelions_(Lyrics)(128k).mp3", artist: "Ruth B", albums: "", duration: "03:53"},
     /* 1. */
-    {track_No: "35", name: "Eenie Meenie", path: "../asset/sound/Sean_Kingston,_Justin_Bieber_-_Eenie_Meenie_(Video_Version)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "03:24"},
+    {track_No: "35", name: "Eenie Meenie", path: "/asset/sound/Sean_Kingston,_Justin_Bieber_-_Eenie_Meenie_(Video_Version)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "03:24"},
     /* 1. */
-    {track_No: "36", name: "Beautiful Girl", path: "../asset/sound/Sean_Kingston_-_Beautiful_Girls_(Official_HD_Video)(128k).mp3", artist: "Sean Kingston", albums: "", duration: "04:21"},
+    {track_No: "36", name: "Beautiful Girl", path: "/asset/sound/Sean_Kingston_-_Beautiful_Girls_(Official_HD_Video)(128k).mp3", artist: "Sean Kingston", albums: "", duration: "04:21"},
     /* 1. */
-    {track_No: "37", name: "Way Back Home", path: "../asset/sound/SHAUN_feat._Conor_Maynard_-_Way_Back_Home_(Lyrics)_Sam_Feldt_Edit(128k).mp3", artist: "Conor Maynard Justin Bieber", albums: "", duration: "03:12"},
+    {track_No: "37", name: "Way Back Home", path: "/asset/sound/SHAUN_feat._Conor_Maynard_-_Way_Back_Home_(Lyrics)_Sam_Feldt_Edit(128k).mp3", artist: "Conor Maynard Justin Bieber", albums: "", duration: "03:12"},
     /* 1. */
-    {track_No: "38", name: "Tada Koe Hitotsu", path: "../asset/sound/Tada ko hitotsu.mp3", artist: "", albums: "", duration: "02:41"},
+    {track_No: "38", name: "Tada Koe Hitotsu", path: "/asset/sound/Tada ko hitotsu.mp3", artist: "", albums: "", duration: "02:41"},
     /* 1. */
-    {track_No: "39", name: "Vacation", path: "../asset/sound/vacation.mp3", artist: "Damon_Empero", albums: "", duration: "03:40"},
+    {track_No: "39", name: "Vacation", path: "/asset/sound/vacation.mp3", artist: "Damon_Empero", albums: "", duration: "03:40"},
     /* 1. */
-    {track_No: "40", name: "Closer", path: "../asset/sound/The_Chainsmokers_-_Closer_(Lyric)_ft._Halsey(128k).mp3", artist: "Halsey", albums: "", duration: "04:21"},
+    {track_No: "40", name: "Closer", path: "/asset/sound/The_Chainsmokers_-_Closer_(Lyric)_ft._Halsey(128k).mp3", artist: "Halsey", albums: "", duration: "04:21"},
     /* 1. */
-    {track_No: "41", name: "Takeaway", path: "../asset/sound/The_Chainsmokers_-_Takeaway_ft._Lennon_Stella__Live_from_World_War_Joy_Tour____Vevo(128k).mp3", artist: "Lennon Stella", albums: "", duration: "03:37"},
+    {track_No: "41", name: "Takeaway", path: "/asset/sound/The_Chainsmokers_-_Takeaway_ft._Lennon_Stella__Live_from_World_War_Joy_Tour____Vevo(128k).mp3", artist: "Lennon Stella", albums: "", duration: "03:37"},
     /* 1. */
-    {track_No: "42", name: "Stay", path: "../asset/sound/The_Kid_LAROI,_Justin_Bieber_-_Stay_(Lyrics)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "02:19"},
+    {track_No: "42", name: "Stay", path: "/asset/sound/The_Kid_LAROI,_Justin_Bieber_-_Stay_(Lyrics)(128k).mp3", artist: "Justin Bieber", albums: "", duration: "02:19"},
     /* 1. */
-    {track_No: "43", name: "Unstoppable", path: "../asset/sound/Unstoppable_Lyrics_Music_Video(With_MMSub)(128k).mp3", artist: "", albums: "", duration: "03:35"},
+    {track_No: "43", name: "Unstoppable", path: "/asset/sound/Unstoppable_Lyrics_Music_Video(With_MMSub)(128k).mp3", artist: "", albums: "", duration: "03:35"},
     /* 1. */
-    {track_No: "44", name: "Oxygen", path: "../asset/sound/ယွန်းမြတ်သူ၊မင်းသန့်_(Yoon_Myat_Thu,Min_Thant)_-_Oxygen(128k).mp3", artist: "ယွန်းမြတ်သူ၊မင်းသန့်", albums: "", duration: "03:55"},
+    {track_No: "44", name: "Oxygen", path: "/asset/sound/ယွန်းမြတ်သူ၊မင်းသန့်_(Yoon_Myat_Thu,Min_Thant)_-_Oxygen(128k).mp3", artist: "ယွန်းမြတ်သူ၊မင်းသန့်", albums: "", duration: "03:55"},
     /* 1. */
-    {track_No: "45", name: "ခရီးများအဆုံးထိ", path: "../asset/sound/လေးဖြူ_-_ခရီးများအဆုံးထိ_(Htet_Thiri_Cover)(128k).mp3", artist: "Htet_Thiri", albums: "", duration: "03:21"},
+    {track_No: "45", name: "ခရီးများအဆုံးထိ", path: "/asset/sound/လေးဖြူ_-_ခရီးများအဆုံးထိ_(Htet_Thiri_Cover)(128k).mp3", artist: "Htet_Thiri", albums: "", duration: "03:21"},
     /* 1. */
-    {track_No: "46", name: "【感情を込めて】ハレハレヤ_歌ってみた_", path: "../asset/sound/【感情を込めて】ハレハレヤ_歌ってみた_ver.Sou(128k).mp3", artist: "Sou", albums: "", duration: "03:28"},
+    {track_No: "46", name: "【感情を込めて】ハレハレヤ_歌ってみた_", path: "/asset/sound/【感情を込めて】ハレハレヤ_歌ってみた_ver.Sou(128k).mp3", artist: "Sou", albums: "", duration: "03:28"},
     
 ]
 
